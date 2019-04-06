@@ -1,0 +1,552 @@
+<p>Referring now to 
+  <span data-role="tag" data-value="1b1f2cb1-9a38-4107-07d0-db6d8206248e" id="id0e118e74-2165-dbd5-1a05-5aa42612e949" data-type="figure">Figure 1</span>, an 
+  <span data-role="tag" data-value="4b09bf94-0ed6-b86a-b419-85f1e2aece55" id="id038b61c4-93e3-a35c-9220-d34a3b10312f" data-type="drawingObject">example system 100</span> includes a 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="id4127b51d-644f-4bcd-cf76-33687cba0fb8" data-type="drawingObject">cloud infrastructure 102</span> that includes a 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id81319777-58f0-42d4-e81a-5be83801e80c" data-type="drawingObject">scanning service 104</span> and 
+  <span data-role="tag" data-value="a1180a03-4f05-97f6-550b-7e934206eb96" id="ide73d27dc-15d2-0670-ea1e-701369ffc589" data-type="term">virtual machines</span> running on one or more 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id915b8024-16f7-2cc4-0bf8-d7eef6911d6c" data-type="drawingObject">virtual private cloud 114</span>. 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="idd183d356-6e13-7092-80b0-84980343e318" data-type="term">Applications</span> instantiated on 
+  <span data-role="tag" data-value="a1180a03-4f05-97f6-550b-7e934206eb96" id="iddd96fa9d-f776-28a3-3fac-d7303f99d6df" data-type="term">virtual machines</span> within the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="idb66ea678-7310-f665-3780-2b91ebfbff36" data-type="drawingObject">virtual private cloud 114</span> may 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="idf23e74d5-a710-eecd-6d87-1eabcfa19747" data-type="term">access</span> one or more 
+  <span data-role="tag" data-value="73ae013d-721e-a0d7-4489-e168a1bc2a95" id="id9e30f393-7ad0-3af8-dbe0-e460d8fbd662" data-type="term">cloud</span>
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="id6b4b6424-d375-ec05-2b06-eca86d82c9cf" data-type="term">data</span> stores 106 for 
+  <span data-role="tag" data-value="6286329a-e8b3-e945-db69-22be3cfa2bef" id="ida38db87b-7c34-0e0c-1fd2-9ba4170f1e29" data-type="term">storage</span> of 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="id8d50ad56-9b88-32e5-5bcb-c45b72200048" data-type="term">data</span>. 
+  <span data-role="tag" data-value="b94a0f63-3bbe-116c-6260-b357a151f598" id="ideff084e0-c4e0-3998-2ed5-f94452171f7e" data-type="term">Administrators</span> may configure the 
+  <span data-role="tag" data-value="70984416-99bb-8929-43e9-a66472729f05" id="idb84ece34-0863-99ae-5079-246a45eaae69" data-type="term">virtual private cloud</span> in 
+  <span data-role="tag" data-value="db518880-3995-8d70-e8ef-0894bbd459b6" id="id48091ce9-5241-0dc9-169c-f67b795c1e04" data-type="term">zones</span>, and may architect 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id8bd4c75c-02a9-a2cc-619f-88f98ddc4074" data-type="term">applications</span> to store in and receive 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="id58830876-92ba-4456-88cb-d7e911614e38" data-type="term">data</span> from the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="ideb1f4a9a-7358-b412-bec7-9934e630c4b7" data-type="drawingObject">cloud data store 106</span> so as to provide 
+  <span data-role="tag" data-value="efd414bd-78e4-188a-c223-8746eb7b8d77" id="id419b7f14-0c69-34c9-3797-fdae9b2a7ad8" data-type="term">fault tolerance and availability</span>.&nbsp;
+</p>
+<p></p>
+<p>While the 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="id1ba5f8c4-26cb-13de-ddeb-0dcaf78a6521" data-type="drawingObject">cloud infrastructure 102</span>, 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id26398ab7-0cc8-ea84-e9a7-9f713db35bf1" data-type="drawingObject">scanning service 104</span> and 
+  <span data-role="tag" data-value="c92928cf-d3bd-39b1-335c-096714ec2a21" id="ide2fcd0c3-65b1-0db1-23bc-3d6f1a70dc03" data-type="term">virtual machine instances</span> in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id72e881ed-32ff-2fb9-0bff-23952e52ad09" data-type="drawingObject">virtual private cloud 114</span> may be described with 
+  <span data-role="tag" data-value="da691665-9a13-4215-c63d-3de8f65db1a0" id="idff9e7768-cc7d-90ef-c020-15e7974c7b61" data-type="term">respect</span> to 
+  <span data-role="tag" data-value="1f37d531-9c90-5d5f-38ba-19ed7eb2dead" id="id5c883e07-3af6-6cfc-1414-355bc7ed6105" data-type="term">cloud-based infrastructure</span> generally, and 
+  <span data-role="tag" data-value="da691665-9a13-4215-c63d-3de8f65db1a0" id="iddbb76ba3-221f-2ac3-7495-c7131e0ab735" data-type="term">respect</span> to 
+  <span data-role="tag" data-value="41bd34d7-106c-830e-4fe6-974b17881b21" id="id9245203c-8c0b-b40b-78c8-7b73fb47cf89" data-type="term">Amazon Web Services</span> (AWS) and AWS 
+  <span data-role="tag" data-value="26c77ed3-fdb3-41de-235a-663b91ba7cc6" id="id043b9cc4-68c2-a177-608a-4ab422899fba" data-type="term">s3 buckets</span> as an 
+  <span data-role="tag" data-value="683f45a4-a004-9f84-65e2-62ae3d9fedba" id="id7d7843c9-a62e-da58-cbce-76874d8dae3c" data-type="term">example implementation</span>, it should be understood that the 
+  <span data-role="tag" data-value="e94da0fa-0a10-450b-7ddb-9be50e337a08" id="ide9be3962-cce8-5393-6ed2-2d8cc48da1a4" data-type="term">architecture and concept</span> may be used with any 
+  <span data-role="tag" data-value="e12d35c5-8d1a-bdf9-1338-d55280f528f5" id="ida022c703-a451-b845-0450-bb673d82791b" data-type="term">suitable cloud service</span> and 
+  <span data-role="tag" data-value="89fea21a-5521-d71b-3c09-e87dd0a2f216" id="id352295a9-e589-2b62-8adf-5362dcfb7c54" data-type="term">related storage system</span>. For 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id191963ee-e151-fefb-7712-01d6e32c77b5" data-type="term">example</span>, 
+  <span data-role="tag" data-value="7d6b4b88-6783-103d-d67b-46c435170f54" id="id989abd93-2194-6e34-6cf6-5be6b0ace4fa" data-type="term">cloud infrastructure services</span> available from 
+  <span data-role="tag" data-value="1acf5a53-658e-0c17-20fd-178faf61db5a" id="id7c27a18c-7ef1-5c86-d0e8-890df0687cb8" data-type="term">Microsoft Azure</span>, 
+  <span data-role="tag" data-value="f4c19fe1-3365-3200-9081-d03b9000902e" id="idf6c393ad-811d-5b61-df43-f1a09c780497" data-type="term">CenturyLink Cloud</span>, 
+  <span data-role="tag" data-value="77475b89-ab99-4d08-6648-6054b522578c" id="id003b9144-156f-e4d9-0a49-3ca8e0acba56" data-type="term">VMware</span>, 
+  <span data-role="tag" data-value="5a288447-8bd4-a6e9-3b3d-6b04dbfb20c1" id="idaeb0004d-1270-a3df-c17a-e508fea5e041" data-type="term">rackspace</span>, 
+  <span data-role="tag" data-value="23350b08-6638-9aad-f4d5-ed5cd842ad46" id="id3010d6b1-9195-de05-75e2-f03538a4f86d" data-type="term">joyent</span>, and 
+  <span data-role="tag" data-value="0569a380-1f5e-1eea-7259-5277bcb65ff7" id="id5483dc6a-f8ac-aa67-b49c-38760bdc1a8b" data-type="term">google</span> may be suitable in 
+  <span data-role="tag" data-value="565a9bff-3cfb-22f6-a5c1-f4b0a3284043" id="id85939bde-e8f6-370d-fa48-80846e9d4d2c" data-type="term">various implementations</span> as well as other 
+  <span data-role="tag" data-value="b07b3a69-23b2-4947-9f2d-08819f84701a" id="idca706995-99c3-d2b5-4992-1d052cf5d242" data-type="term">cloud infrastructure</span> or 
+  <span data-role="tag" data-value="06ec78d1-3599-c51e-83b2-6f2475285ae1" id="id2277e188-380d-89fa-dfc2-4b6133c75f16" data-type="term">infrastructure-as-a-service providers</span> with 
+  <span data-role="tag" data-value="72d7cf44-f12d-7ac0-ada2-6e03ae8cbfcb" id="id2c6d9d83-4799-5821-021e-99e62e0935bf" data-type="term">adjustments or modifications</span> as may be needed for a 
+  <span data-role="tag" data-value="75d56440-4fe5-2319-ef0c-1b8ab5a27a1f" id="id3773a1bb-d561-4977-654f-477b929c7a46" data-type="term">particular implementation</span>.&nbsp;
+</p>
+<p></p>
+<p>Deployment of the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="ida4b4adc6-584c-6f2c-90db-2ceab398117f" data-type="drawingObject">scanning service 104</span> may be accomplished with a 
+  <span data-role="tag" data-value="3fbfd92a-ffe7-714b-96c1-dd32e863dd3c" id="ida0c4efd4-fd75-04e2-9201-8666cbeda8de" data-type="term">workflow</span> that is intended to be relatively simple for an 
+  <span data-role="tag" data-value="5220f482-aaec-58b6-e07f-d150c1cdc200" id="id8c12ea24-761b-6ab8-f49d-1d3f0ab95ccd" data-type="term">administrator</span> to initiate and manage, and relieve a 
+  <span data-role="tag" data-value="8fbc17bb-dd5b-a588-2a38-f0caaf49886b" id="id29c517a2-5a8f-f872-ff4d-269a92b3e96f" data-type="term">requirement</span> to deploy and manage an 
+  <span data-role="tag" data-value="7254d421-52d9-93ac-893e-4c20b28e9f48" id="ida3381a78-25ac-056f-30f8-b6761fb4ac00" data-type="term">agent</span> on 
+  <span data-role="tag" data-value="1b123a6a-c447-5cf8-5636-66fd2e394a70" id="idd797b13a-5333-2c56-a97a-a9a603a623a7" data-type="term">application templates or instances</span> as they are created. This may enable, for 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="iddd53b868-4d2c-d09e-63e0-2bf227d16d0a" data-type="term">example</span>, in some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="idb1304572-9e0f-7048-1bbf-c0cc35ac6c9f" data-type="term">implementations</span>, a 
+  <span data-role="tag" data-value="e29395b5-ecb6-f311-5c63-83e5277978f8" id="ide2069e30-e799-16ad-dac1-d1106d95d60c" data-type="term">usage-based billing model</span> as compared to a 
+  <span data-role="tag" data-value="458f7902-3245-3812-45ee-c09b079b4d7e" id="idfb62a424-5df2-bbe3-214b-7fca700ecc2f" data-type="term">per-seat license</span> for each 
+  <span data-role="tag" data-value="e9258b5b-071c-15a4-cde8-c2207d64a15e" id="idd6bb3b38-a784-d8a4-2f54-4d94844fe9ee" data-type="term">image</span> created, which may be desirable with 
+  <span data-role="tag" data-value="8e2709db-a3c4-d9f4-350e-9b6214a98695" id="id535930f7-c874-bb02-40f3-02b089110837" data-type="term">cloud billing models</span>, and particularly in an 
+  <span data-role="tag" data-value="8f1c2bfe-493b-0fd3-a9d4-eca932041249" id="id004f6af1-77a3-5c21-83c4-5f0255a61f4c" data-type="term">auto-scaling environment</span>. As 
+  <span data-role="tag" data-value="43dd5eba-44ad-3c10-7371-5cc9158a082e" id="id4fe955ff-e0ba-cbfd-0dc9-f5db42b79c11" data-type="term">instances</span> are created and shut down, 
+  <span data-role="tag" data-value="02a59f06-c6da-3230-37dc-c584779cc4e2" id="ide62971e9-af33-d94c-8cd1-274319e62ce2" data-type="term">instantiations</span> of the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id4d6d2a75-efdc-33c3-07ce-4b0385c17017" data-type="drawingObject">scanning service 104</span> may be based on the 
+  <span data-role="tag" data-value="dd509e4f-cd25-9732-1ee1-2215451708aa" id="idff3206fb-fe3c-d15e-96ae-98fd88ba269a" data-type="term">load</span> on the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="ida0b8f43b-4ed9-1ba5-6c00-49de5228278a" data-type="drawingObject">scanning service 104</span>
+  <span data-role="tag" data-value="dd509e4f-cd25-9732-1ee1-2215451708aa" id="id1034129b-120f-23d8-77e5-87ff0c6956a6" data-type="term">load</span>, and may be managed, for 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id79c6cf25-93cd-ae4b-1529-851a595475b6" data-type="term">example</span>, by the 
+  <span data-role="tag" data-value="4b7e6222-41c8-ff16-9a74-5bb74c225587" id="iddb907214-1f6d-5acc-3d35-09253bcc64dd" data-type="drawingObject">security manager 116</span>, rather than the 
+  <span data-role="tag" data-value="5220f482-aaec-58b6-e07f-d150c1cdc200" id="id177c78c5-f3e8-023f-4d29-c17f6c1032f8" data-type="term">administrator</span> of the 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id68d52f66-a078-d8b2-b07c-e43484d8382b" data-type="term">applications</span> running in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id183a377d-5f42-f7f6-4d5d-48f8e63a47aa" data-type="drawingObject">virtual private cloud 114</span>.&nbsp;
+</p>
+<p></p>
+<p>In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="id7c9ac00c-9829-c350-a584-5da357b217e4" data-type="term">implementations</span>, 
+  <span data-role="tag" data-value="f05316f5-f400-2c69-162b-2c636cc8e9ef" id="id6fa813c9-a77d-8051-d1ee-e082786fc9b2" data-type="term">installation and registration</span> may involve setting 
+  <span data-role="tag" data-value="f208bae4-72ba-e4e7-834f-2460e161741d" id="id2f3cb8db-bbbf-96ca-f132-e05aa7eb0d62" data-type="term">permissions and authentication configuration</span>, so that a 
+  <span data-role="tag" data-value="81d82271-234e-ee5e-01d9-167429241315" id="id69aea4c3-263e-c897-036e-6b5cfb3131b4" data-type="term">cloud scanning provider</span> handles 
+  <span data-role="tag" data-value="42047c8f-2529-3041-9b38-0b6decc47700" id="idf2c30052-3a68-fd77-7217-a14c906bf2d4" data-type="term">administration</span> of the 
+  <span data-role="tag" data-value="fe858a86-5cfb-5017-75e7-fec753a72a3b" id="idd36296e0-dab6-1d41-2e49-42bdd7607d66" data-type="term">scanning application and datasets</span> without 
+  <span data-role="tag" data-value="7f77f245-8654-eaa8-c21d-f7ceeb369f10" id="id35f89c35-3172-3dc4-caba-82030e8d21b6" data-type="term">additional impact</span> to 
+  <span data-role="tag" data-value="65dcf742-e18f-7adc-c713-1e310e96f720" id="idbe4388c1-d0cd-56fc-a799-4e4e153a57fd" data-type="term">customers' workflows</span>. This reduces 
+  <span data-role="tag" data-value="9c1dfe54-5994-4f40-2b34-edbcbc6c1460" id="ida261b240-3897-84d9-3971-1ca741639eb9" data-type="term">complexity</span> for the 
+  <span data-role="tag" data-value="60080c1a-b0ae-ed36-1db6-6b4073ee3166" id="idb8f01f78-74a3-468a-92a2-ad68b83b6394" data-type="term">application administrator</span> when adding 
+  <span data-role="tag" data-value="7662fc27-97b2-ac5a-7e18-bd0b674ec0c7" id="idceb318a3-2ff2-245b-ded2-8f0a38fd6950" data-type="term">data protection capability</span> to 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="ida175fd1f-b67b-7e9a-7bd9-4997d5f8e0b3" data-type="term">applications</span>.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="f613e256-cc8c-f9b6-f7bd-8c101fea2c2a" id="id6084ada0-6430-6c07-8599-2a9bc4d21fd7" data-type="term">system</span> 100 includes a 
+  <span data-role="tag" data-value="37e83ea3-99f7-c35d-357f-4de633d1a5c2" id="ida1014fdc-1b7e-b6ee-cf37-7633258dbb55" data-type="term">cloud infrastructure service</span> 102 that provides 
+  <span data-role="tag" data-value="7f076c8c-1e1f-4acb-1430-e39af1c70cab" id="id94e4dc21-450f-a682-a34b-4c7ef46caa11" data-type="term">computing resources</span> for 
+  <span data-role="tag" data-value="dd19a4a2-104b-2d4b-9379-1d938094320d" id="id075b423a-54f1-9139-d91e-42e4de80b53f" data-type="term">execution</span> of 
+  <span data-role="tag" data-value="5ac59c7e-ae0e-3d9f-a9ed-d656c742ece9" id="id7f4e7f58-d67e-0d1e-ecda-ac63abf7ff5e" data-type="term">software applications</span>, 
+  <span data-role="tag" data-value="e211dbf2-9fae-ad16-d898-2a6acf149ec5" id="id919114e5-416f-4087-e9c6-4c62300b7812" data-type="term">data storage</span>, and 
+  <span data-role="tag" data-value="7c24542f-3901-0184-8346-4fd47bf6a1d5" id="idd69efd07-0df9-6202-7738-d55ee479373b" data-type="term">resource management</span>, and may provide other services as well. In an 
+  <span data-role="tag" data-value="683f45a4-a004-9f84-65e2-62ae3d9fedba" id="id2036c5e8-0297-96c2-adc7-0b27dd1096de" data-type="term">example implementation</span>, the 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="idb6179f56-8f93-9534-cba6-c27224d3fb3f" data-type="drawingObject">cloud infrastructure 102</span> is implemented with the 
+  <span data-role="tag" data-value="2beaec2b-0c72-6fd5-eb8e-6daeec159cf8" id="id2498c13f-abf5-8a19-5e65-507fe590ea37" data-type="term">AWS service</span>, although as mentioned above other suitable 
+  <span data-role="tag" data-value="7d6b4b88-6783-103d-d67b-46c435170f54" id="id92ac76cf-a3d6-f75d-c672-576c633fb5d0" data-type="term">cloud infrastructure services</span> may be used.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="37e83ea3-99f7-c35d-357f-4de633d1a5c2" id="ide9c2e3f5-8ac6-b1d7-1e0b-be17169c4101" data-type="term">cloud infrastructure service</span> 102 may include a 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="id8ec04ab4-59aa-b52d-fe01-9174d4339159" data-type="drawingObject">cloud data store 106</span>. The 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="id1d0de974-031b-81af-9dc6-97d404ae3b4f" data-type="drawingObject">cloud data store 106</span> may be used by 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="idca10f25b-51bd-7979-6b89-40f46eba58cf" data-type="term">applications</span> within the 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="id995d1098-6d9d-070b-9928-28f5e06f3e25" data-type="drawingObject">cloud infrastructure 102</span> to store 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="idc159e3a1-f891-f604-6eea-13f912997625" data-type="term">data</span>. The 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="idcef5abb0-5ab7-58dd-508e-4a8ecb58f341" data-type="drawingObject">cloud data store 106</span> may be used, for 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id3deaa76c-2068-826b-d4b7-b954589ec574" data-type="term">example</span>, by a 
+  <span data-role="tag" data-value="a5a99dda-169b-e5ec-7527-685a44853079" id="id583b1b9e-b9a3-9ffa-6e3b-d77f601f4a76" data-type="term">web application</span> operating within the 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="idc3b6659b-f2da-2b18-14a4-8aa422839c71" data-type="drawingObject">cloud infrastructure 102</span> to 
+  <span data-role="tag" data-value="6f5595ee-76f0-1d96-4312-db2f0eadae39" id="id2fb4a8e6-1936-f76c-2dcd-8b2f3409d7a4" data-type="term">store files</span> uploaded to the 
+  <span data-role="tag" data-value="a5a99dda-169b-e5ec-7527-685a44853079" id="id38af2b29-ea9e-e431-c525-9cd2fb5032c2" data-type="term">web application</span> by a 
+  <span data-role="tag" data-value="a95394d3-dc79-1f82-ce09-c73f761c6300" id="id98696130-43a5-c56d-464b-79a18e1a76d2" data-type="term">user</span>. The 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="ida3dd951b-c4b1-4efd-ae4b-6d46af6bb0f5" data-type="drawingObject">cloud data store 106</span> may receive one or more 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="idc577af6c-168b-e7d7-2c81-80ac2945678c" data-type="term">files</span> directly or indirectly from 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id88bbd845-80a9-ef50-e380-1df63b90a165" data-type="term">applications</span>, such as 
+  <span data-role="tag" data-value="9cafae22-564e-ed7d-7e8e-a112c11a87d6" id="id76a04bc3-b08a-16d5-3b2e-849051f3b0ef" data-type="term">mobile apps</span>, operating on 
+  <span data-role="tag" data-value="eb942e66-a704-9910-a86f-030b7bb17409" id="idac869132-ef59-2bc6-ee9e-065e2f1ca56d" data-type="term">user device</span> 122 or a 
+  <span data-role="tag" data-value="665c9eed-9184-8627-0bc5-07f95c50ef71" id="idfae95be9-70aa-d7d3-d95a-c2ba8dd2581c" data-type="term">mobile device</span> 322B. In an 
+  <span data-role="tag" data-value="5091f64a-6411-1f79-6601-a09062b9d3a8" id="id8d5724b3-2558-9962-f51b-2213b6f9bc74" data-type="term">AWS implementation</span>, the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="id274cb5bd-216d-c068-a363-3cafbff21e30" data-type="drawingObject">cloud data store 106</span> may be implemented with the 
+  <span data-role="tag" data-value="58d1783f-d8c5-aadb-c1ce-1333247616b0" id="idb3782959-7e95-da63-9fd0-5136e47760fd" data-type="term">AWS Simple Storage Service</span> S3. Other 
+  <span data-role="tag" data-value="73ae013d-721e-a0d7-4489-e168a1bc2a95" id="id7f8b950c-0419-6c61-3fd3-bc9e8b2850ed" data-type="term">cloud</span>
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="iddd8cab3c-e905-aeea-0560-25f080538009" data-type="term">data</span> services may be used instead or in 
+  <span data-role="tag" data-value="f4aee385-4aba-fd49-25e8-bf5b3587367f" id="id6d8c8690-418e-9b38-ff2a-f641fe910a62" data-type="term">addition</span>.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="id08d7eb35-54b4-8066-9ac3-5e17ca9fd76a" data-type="drawingObject">cloud infrastructure 102</span> may include a 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id41b83b09-3445-5605-e96a-4a7057dc1903" data-type="drawingObject">scanning service 104</span>. The 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="idf3f9d447-b275-41e1-5939-6d9bd2e0b07e" data-type="drawingObject">scanning service 104</span> may be implemented with one or more 
+  <span data-role="tag" data-value="fa9d2938-d5e8-e1e6-4a69-fe62cc43130c" id="iddab12e83-5f01-27b7-4cad-feff8a596efe" data-type="term">scanning</span>
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="idddb4cacc-6420-dc02-37ca-f110c22f6873" data-type="term">applications</span> running on one or more 
+  <span data-role="tag" data-value="a1180a03-4f05-97f6-550b-7e934206eb96" id="idb5ea7bda-4cd6-880e-a28b-a9b167b044da" data-type="term">virtual machines</span> within the 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="idaa0dd42b-2717-7e1b-78f5-c79feb97f3e0" data-type="drawingObject">cloud infrastructure 102</span>. The 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="iddb22b5c3-8e8c-046b-e8d5-a501a5fd098c" data-type="drawingObject">scanning service 104</span> may receive 
+  <span data-role="tag" data-value="3ac13c5f-954c-6750-6d58-b8a16d76962b" id="id75f14705-eb67-2a43-05bc-ac13813ececa" data-type="term">policies</span> from a 
+  <span data-role="tag" data-value="4b7e6222-41c8-ff16-9a74-5bb74c225587" id="id8b0bc1bd-20d1-0432-d23f-5e37c2b9647a" data-type="drawingObject">security manager 116</span> and also may provide 
+  <span data-role="tag" data-value="ac0bcb9c-66da-b593-9661-038cce88208b" id="id8c86ccda-9eb6-9210-2118-e7a9a3727e90" data-type="term">status information</span>, 
+  <span data-role="tag" data-value="a57e6750-5f5e-83f2-a002-6652acdff745" id="idfe1bf04b-cfa2-20cd-7b3c-a5845f24b1a6" data-type="term">events</span>, and 
+  <span data-role="tag" data-value="2e6173be-1b49-0602-2f7c-2950f8077f11" id="idf60a7180-3d00-a41b-964b-deae2fb0370f" data-type="term">alerts</span> to the 
+  <span data-role="tag" data-value="4b7e6222-41c8-ff16-9a74-5bb74c225587" id="id8486a018-a73c-78d7-e4eb-ac17f1f90e5e" data-type="drawingObject">security manager 116</span>.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="4b7e6222-41c8-ff16-9a74-5bb74c225587" id="ida1ca29f7-ca51-3897-2019-1c7cd2e3bb79" data-type="drawingObject">security manager 116</span> may be implemented within the 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="id1c248027-b595-cea4-40d0-7a622e3d5f2d" data-type="drawingObject">cloud infrastructure 102</span> or outside the 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="id22d9951d-e992-cef4-f2c8-b58b3cc76a04" data-type="drawingObject">cloud infrastructure 102</span>. The 
+  <span data-role="tag" data-value="4b7e6222-41c8-ff16-9a74-5bb74c225587" id="ide4af2a21-68d7-7e21-2222-821ab74d5cb8" data-type="drawingObject">security manager 116</span> may provide a 
+  <span data-role="tag" data-value="02fc43d3-da39-48eb-d0b4-5c531ecaa5b6" id="id5336c5b6-c912-9fe7-e9a4-94abe4dd2518" data-type="term">web-based management interface</span> for 
+  <span data-role="tag" data-value="3f0f83e8-0e1b-9fd0-c21c-5e28ea939ce4" id="idd88d9444-9e8e-77be-6c10-1d8866c19f9f" data-type="term">configuration</span> of the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id86bdcce7-e78d-d86b-5bb5-abdbe0c352a9" data-type="drawingObject">scanning service 104</span> and for an 
+  <span data-role="tag" data-value="5220f482-aaec-58b6-e07f-d150c1cdc200" id="ide606df7b-b47c-a9c3-b4f1-2387745bfa53" data-type="term">administrator</span> to manage 
+  <span data-role="tag" data-value="31a4d19c-4999-0dfa-1a6f-fc64814bcba1" id="id5204c81b-4c8e-553c-d88b-c35985db3783" data-type="term">their use</span> of the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="idfa30a825-4e23-c8f8-db3b-af273f9bf529" data-type="drawingObject">scanning service 104</span> and 
+  <span data-role="tag" data-value="bcbebaf5-0728-a2c7-dc24-d8d0d71652a7" id="id3d90e96f-c847-4e17-7656-78bb6d082207" data-type="term">potentially other security applications</span>. For 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="ida0b7f8d4-45cd-73d8-fb4f-0673949d336e" data-type="term">example</span>, the 
+  <span data-role="tag" data-value="4b7e6222-41c8-ff16-9a74-5bb74c225587" id="ide2efd232-b50f-4a77-d052-cdc8d4eb351b" data-type="drawingObject">security manager 116</span> may provide 
+  <span data-role="tag" data-value="60dfd244-182e-1f6c-c814-76fd834df00f" id="id1d04ca08-6c08-7a4f-d0e4-4665ce083105" data-type="term">management</span> for 
+  <span data-role="tag" data-value="8c81d61d-710a-a2ab-f20a-73b5417faf7b" id="id6c348fd5-dde3-9c43-2444-d8b8abfd16cd" data-type="term">endpoint protection</span>, 
+  <span data-role="tag" data-value="1da3cc0d-4c9a-a83e-a9fd-cbf98d60d667" id="ide9886de7-4ae9-9639-6cbf-ffe5f3c1d5ef" data-type="term">firewalls</span>, and so forth. In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="id86b8fc21-e29e-31e6-8339-fc637f62ed1e" data-type="term">implementations</span>, one or more 
+  <span data-role="tag" data-value="1da3cc0d-4c9a-a83e-a9fd-cbf98d60d667" id="iddded72c1-2c83-96ed-4ef3-732d24a066d9" data-type="term">firewalls</span> under 
+  <span data-role="tag" data-value="60dfd244-182e-1f6c-c814-76fd834df00f" id="idb273d4bf-47aa-8d0e-9771-0d1cf1eaf057" data-type="term">management</span> by the 
+  <span data-role="tag" data-value="4b7e6222-41c8-ff16-9a74-5bb74c225587" id="iddbbdc904-54eb-885c-95c4-db5aaaedead5" data-type="drawingObject">security manager 116</span> are included in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id83b63b8a-a705-81ea-cd4a-6afdf891b29d" data-type="drawingObject">virtual private cloud 114</span> and may be managed by the 
+  <span data-role="tag" data-value="4b7e6222-41c8-ff16-9a74-5bb74c225587" id="id14add5c5-92c4-ecc7-4c5f-328b0f9b2791" data-type="drawingObject">security manager 116</span>.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id89cd8c82-8a78-0589-0972-00649ace3bd6" data-type="drawingObject">scanning service 104</span> may receive 
+  <span data-role="tag" data-value="fee44367-5b5c-0499-0581-2f187cb3bdb5" id="idd7df9a3b-50cb-7a14-fb7d-92a896b5d4c7" data-type="term">data updates</span> from a 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="id1208a92f-606e-b747-6837-0abe9f2700ee" data-type="term">data</span>
+  <span data-role="tag" data-value="0adcfafd-46c3-cf44-d700-167925a90fa8" id="idb8992466-9de3-3fcc-07c8-f8cd4499bd6f" data-type="term">distribution</span>
+  <span data-role="tag" data-value="28bc3d3e-59fa-8d4e-d909-17499b472647" id="id80b5906d-bfd6-aa88-cdb4-d65e60b64aaf" data-type="term">service</span> (
+  <span data-role="tag" data-value="db5be60d-34cb-455a-aed7-8a111781cc59" id="id1aab308f-0065-bd31-a4b9-8e683249e170" data-type="drawingObject">DDS 118</span>). 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="id9bdda1bb-b136-816c-7438-87f96046aa6d" data-type="term">data</span> from the 
+  <span data-role="tag" data-value="db5be60d-34cb-455a-aed7-8a111781cc59" id="idc87d278d-e310-fbd2-78d8-f880031d9cec" data-type="drawingObject">DDS 118</span> may include, for 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id3d85b3b2-82a3-0786-5620-0b2edde550b8" data-type="term">example</span>, 
+  <span data-role="tag" data-value="9888fefd-b795-2cc7-0624-5cfad4dcd6ed" id="idfb7774d9-90e0-fdd5-5804-b4be584f72b5" data-type="term">code updates and definitions</span> of known or 
+  <span data-role="tag" data-value="2bd40bed-d6ec-c820-6632-a4579f9b452d" id="ideae70f7f-a27c-e276-c475-ee44eed70669" data-type="term">potential malicious files</span>, 
+  <span data-role="tag" data-value="4092590d-94f6-7741-0798-2540d9ba5a9a" id="id570a5635-6dd3-ce91-ebcf-5e913df490de" data-type="term">portions</span> of 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="idc055210b-1ef5-6d12-b4cc-14c21b099a44" data-type="term">files</span>, 
+  <span data-role="tag" data-value="1a40f4ab-78b9-09f7-4aab-3ad724dbd5ef" id="id7171cfcc-7154-5fb4-1025-1a1a6139f4ca" data-type="term">code</span>, or 
+  <span data-role="tag" data-value="dd81fb79-c1a3-ba96-3cba-866ed263ee41" id="id5e1c6403-a3f3-9612-a90f-32e6e1ad859d" data-type="term">content</span>, or 
+  <span data-role="tag" data-value="1a40f4ab-78b9-09f7-4aab-3ad724dbd5ef" id="id630732fd-cd8a-6e30-625a-c4385591890d" data-type="term">code</span> that may be used to identify 
+  <span data-role="tag" data-value="1e8ccb46-c3f0-0700-d690-14401ce8275e" id="id9a23bbde-cf13-1a4d-7cd5-f74cc03c7fa6" data-type="term">malicious files</span>, 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="ideee9fb0f-81e6-819b-74e6-339d4c1cb1eb" data-type="term">applications</span>, or the like. The 
+  <span data-role="tag" data-value="b41b7a79-c0b3-bd1f-0fed-50391c021a53" id="id3d6fe30b-9968-011e-54f3-54bdf3c8c89c" data-type="term">definition files</span> may contain one or more commands, definitions, 
+  <span data-role="tag" data-value="5e206de4-76cc-1c93-66aa-2ab3aa9cd210" id="id47ebf954-4eeb-3454-2117-eec48dedd1c9" data-type="term">patterns</span>, or 
+  <span data-role="tag" data-value="1ee94b4a-771c-a04c-b924-b30835a8beab" id="ide2bbf711-e018-190d-65b1-c4f60ac9491c" data-type="term">instructions</span>, to be parsed and acted upon, matched, or the like. 
+  <span data-role="tag" data-value="5e206de4-76cc-1c93-66aa-2ab3aa9cd210" id="idd4c3ce57-dc11-eea0-81ce-645d6ddf856f" data-type="term">Patterns</span> may include, for 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id3d390ab3-3621-85ca-e8f2-85ec5fb4664d" data-type="term">example</span>, identifying 
+  <span data-role="tag" data-value="08d1c438-0603-fabc-c522-6f11eee7bc8f" id="id7a4f4f79-58a1-ed41-cc06-921e483be698" data-type="term">files or portions</span> of 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="id3548373d-2436-ec8c-01b5-2ff982b5c6ca" data-type="term">files</span> that fit a 
+  <span data-role="tag" data-value="88148f14-061e-8614-1698-d03445190567" id="id578c4360-5545-ac22-ad46-a32392b91d22" data-type="term">specific pattern</span>, or that were identified in 
+  <span data-role="tag" data-value="1e8ccb46-c3f0-0700-d690-14401ce8275e" id="ida8e69cc5-47f2-15e0-92ab-ac32d68ee3ba" data-type="term">malicious files</span>. 
+  <span data-role="tag" data-value="5e206de4-76cc-1c93-66aa-2ab3aa9cd210" id="ide5ff10ed-f01f-80a9-8fb4-1530e97ca85e" data-type="term">Patterns</span> also may include, for 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id95c89fcc-1479-c528-5360-6477d7d9ae12" data-type="term">example</span>, identifying 
+  <span data-role="tag" data-value="1a40f4ab-78b9-09f7-4aab-3ad724dbd5ef" id="id3e42ae39-f9dd-b258-eb53-03ee49b84824" data-type="term">code</span> that has the 
+  <span data-role="tag" data-value="18eb2c41-f2f2-19d4-6756-d6393d2f436c" id="iddd3369ca-8de4-6bed-fc38-e52da87c2ab4" data-type="term">same effect</span> of 
+  <span data-role="tag" data-value="1a40f4ab-78b9-09f7-4aab-3ad724dbd5ef" id="id53201a5d-c268-f153-e4f7-8d0b16a67782" data-type="term">code</span> that is known to be malicious. The 
+  <span data-role="tag" data-value="fee44367-5b5c-0499-0581-2f187cb3bdb5" id="id945c163f-a0fc-8609-6551-d0566be2440a" data-type="term">data updates</span> may be used by the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id56d10079-c832-99ea-54ff-1ca8f503b988" data-type="drawingObject">scanning service 104</span> when 
+  <span data-role="tag" data-value="fa9d2938-d5e8-e1e6-4a69-fe62cc43130c" id="id40711c9b-4ff2-fef7-dac3-b5d6d4543430" data-type="term">scanning</span>
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="idefe58288-47a0-ebae-45c5-7172ffebad62" data-type="term">files</span>.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id683ff716-17f5-eaee-127c-4a9ec11243ab" data-type="drawingObject">scanning service 104</span> may exchange 
+  <span data-role="tag" data-value="0de9e0bd-76cf-d23e-ea0e-16dc8aa9ced1" id="idaec4e436-85a5-cff6-1f93-deb461f199d1" data-type="term">security-related information</span>, such as 
+  <span data-role="tag" data-value="08d1c438-0603-fabc-c522-6f11eee7bc8f" id="id620424b3-9ab9-9e5b-a0b2-53135c516374" data-type="term">files or portions</span> of 
+  <span data-role="tag" data-value="f4f7d458-65f4-8357-a553-adc928d01140" id="idb4e2625c-099d-cad7-088c-87c142552ffe" data-type="term">files and resource reputation information</span> with a 
+  <span data-role="tag" data-value="43393afd-db7b-cf85-9eb6-3d73b59ff559" id="id9012cef7-63bb-8f48-c06c-165426b387ce" data-type="term">security data</span>
+  <span data-role="tag" data-value="fe27b4af-967c-f5ee-3cb9-44ca2b1fae08" id="idd0e8cef5-8db1-6ea4-3738-7832232b8b71" data-type="drawingObject">data lookup service 120</span>. The 
+  <span data-role="tag" data-value="43393afd-db7b-cf85-9eb6-3d73b59ff559" id="id3d75e8cf-00cf-64f1-d506-620f26233c6c" data-type="term">security data</span>
+  <span data-role="tag" data-value="fe27b4af-967c-f5ee-3cb9-44ca2b1fae08" id="id253107c8-995d-d4a6-71b3-95960df394ad" data-type="drawingObject">data lookup service 120</span> may be provided within the 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="idfedf0420-25d1-8f8e-6f31-d9e3e0728a5f" data-type="drawingObject">cloud infrastructure 102</span> or outside the 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="idebe15f5f-8139-d712-3f4b-b0b1042f0c24" data-type="drawingObject">cloud infrastructure 102</span>. The 
+  <span data-role="tag" data-value="43393afd-db7b-cf85-9eb6-3d73b59ff559" id="idab3191aa-53d1-b3b1-c3f2-49ca5ade4992" data-type="term">security data</span>
+  <span data-role="tag" data-value="fe27b4af-967c-f5ee-3cb9-44ca2b1fae08" id="id6402f3d1-1390-1230-3b5d-84d251b365ab" data-type="drawingObject">data lookup service 120</span> may be used, for 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="ida98ac050-feb1-4c2e-ee54-9358d38ac943" data-type="term">example</span>, to check 
+  <span data-role="tag" data-value="5e206de4-76cc-1c93-66aa-2ab3aa9cd210" id="id0b75e876-1ae7-cdc0-2c7e-e6522c0daa7a" data-type="term">patterns</span> identified by the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id3fbc4b1a-bc9c-212c-2391-de6390cdbe66" data-type="drawingObject">scanning service 104</span>, determine 
+  <span data-role="tag" data-value="83b6d137-09d6-0733-f5a6-d28f6854cf77" id="id4132c221-b1ce-f835-a3c5-626b6b526af0" data-type="term">reputations</span> of 
+  <span data-role="tag" data-value="af79504c-ae77-c40b-7666-612b84a0b1b4" id="id16d0b984-63e0-5141-7934-7b37c5b62149" data-type="term">resources</span> identified or provided by the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id8fdc970b-992f-9cd3-6ca8-a4a331c9a5e1" data-type="drawingObject">scanning service 104</span>, and so forth. The 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id14239a84-e790-32da-628d-213b282f0764" data-type="drawingObject">scanning service 104</span> may provide 
+  <span data-role="tag" data-value="6b43d3b4-6ffd-f7c1-c112-7216e86bd565" id="id5af3e400-57fc-0526-ab6c-7a898775478f" data-type="term">files or data</span> to the 
+  <span data-role="tag" data-value="fe27b4af-967c-f5ee-3cb9-44ca2b1fae08" id="ida43b4bf4-284d-956b-72c8-23d034857338" data-type="drawingObject">data lookup service 120</span> for 
+  <span data-role="tag" data-value="1040aefa-97d3-e725-827f-8e191ca4f3e8" id="idf7569b14-30d6-5640-9485-c772ef0fd39f" data-type="term">further analysis</span>. In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="id036523a7-2668-09e3-b781-a4999504998b" data-type="term">implementations</span>, the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="idd6be3fa7-2eb6-13bd-79a8-10809b5f36de" data-type="drawingObject">scanning service 104</span> may initiate sending 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="id10af153d-c4db-f13c-cef8-5539abb9ba5b" data-type="term">data</span> to the 
+  <span data-role="tag" data-value="fe27b4af-967c-f5ee-3cb9-44ca2b1fae08" id="id5ad22445-e97d-891b-8bfe-79c8b1485693" data-type="drawingObject">data lookup service 120</span> under a 
+  <span data-role="tag" data-value="f9d75a28-9798-7024-6624-fb21b7333449" id="id2f96a74d-7123-15fc-b4c2-4a3d1c18eee2" data-type="term">variety</span> of 
+  <span data-role="tag" data-value="5f206f3b-5b5d-2de5-5258-0b710c6b468f" id="idf8ac7852-59a8-51b2-1168-e7f042868c74" data-type="term">circumstances</span>, for 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id350778e4-6249-6d78-dadb-3c92061fc0f4" data-type="term">example</span>, if the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="idd993f203-67b2-a874-bd9d-756f6aefbf95" data-type="drawingObject">scanning service 104</span> is unable to determine whether a 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id3b170c9a-0f09-f482-ce4e-292921758f26" data-type="term">file</span> or a 
+  <span data-role="tag" data-value="a53aa0cc-5668-fe0b-fc47-aa0e5fe7b6f7" id="id091aa846-d0a0-565b-9904-bcc0c305ae9d" data-type="term">portion</span> of a 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id720e8d3f-8342-b620-dead-18361005b024" data-type="term">file</span> is malicious, or the 
+  <span data-role="tag" data-value="1d8e4c8c-4b67-bd89-26db-18adad530e81" id="id54f0a031-cd2c-f8be-af8c-a31ae8ceafe3" data-type="term">relevance</span> of 
+  <span data-role="tag" data-value="1a40f4ab-78b9-09f7-4aab-3ad724dbd5ef" id="id54208ddd-491f-aaf0-9bae-3bda70358c33" data-type="term">code</span> or other 
+  <span data-role="tag" data-value="dd81fb79-c1a3-ba96-3cba-866ed263ee41" id="id00b71258-1abf-0780-2675-3b0ffd5a1737" data-type="term">content</span>, or if the 
+  <span data-role="tag" data-value="54c4d457-ab13-35e3-28ff-315ceee84b45" id="idf3e5e88f-68ea-150b-5403-470119364a43" data-type="term">reputation</span> of a 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="idaf971472-c6ca-286f-bce8-9e633adfba65" data-type="term">file</span> is unknown. The 
+  <span data-role="tag" data-value="fe27b4af-967c-f5ee-3cb9-44ca2b1fae08" id="idc62ccb17-cbeb-e523-6a00-b2873dc6bd46" data-type="drawingObject">data lookup service 120</span> may request a 
+  <span data-role="tag" data-value="f1ab286c-53e7-f812-3c21-e0f79609d252" id="id3545cef7-4bb1-f4f7-d7ca-438c76c5a41e" data-type="term">file or data</span> to be provided to the 
+  <span data-role="tag" data-value="fe27b4af-967c-f5ee-3cb9-44ca2b1fae08" id="id4d91b066-9dd4-0e7f-7f82-fbe09d523ffe" data-type="drawingObject">data lookup service 120</span> for 
+  <span data-role="tag" data-value="f5a3d8c2-a76f-881a-ab16-88b645117550" id="idb6527edc-32f1-aabf-4fe4-ad28e2fe73cb" data-type="term">further investigation</span>.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id176fff61-bd0a-25d4-4473-96f9c4745ac7" data-type="drawingObject">scanning service 104</span> accesses 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="id0f3e2b7e-04b6-8e42-32f7-fa219f385b5f" data-type="term">files</span> to be scanned directly from the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="id9da831fb-fdef-a3bb-3053-777c43427ad2" data-type="drawingObject">cloud data store 106</span> that is used by the 
+  <span data-role="tag" data-value="c92928cf-d3bd-39b1-335c-096714ec2a21" id="idedf23724-c642-8f8e-7689-31dd2ef12d3d" data-type="term">virtual machine instances</span>, which avoids overhead and performance 
+  <span data-role="tag" data-value="c3f372ed-a1f8-3b2d-ab39-0ef74067f3cb" id="ide8206d70-01c0-e7e0-65ff-e9987bde7b52" data-type="term">delay</span>. The use of 
+  <span data-role="tag" data-value="c92928cf-d3bd-39b1-335c-096714ec2a21" id="id45134c0d-9857-fa29-af31-5fc4c6101ec7" data-type="term">virtual machine instances</span> for the 
+  <span data-role="tag" data-value="fa9d2938-d5e8-e1e6-4a69-fe62cc43130c" id="id54854feb-7aba-e9cb-2d78-e0ca69317fa7" data-type="term">scanning</span> that are different from the 
+  <span data-role="tag" data-value="c92928cf-d3bd-39b1-335c-096714ec2a21" id="ida82d2fb7-d094-5bf2-ba05-a850ef5fde3f" data-type="term">virtual machine instances</span> of the 
+  <span data-role="tag" data-value="bd7644b1-981e-aa33-882e-5f6ec414ca39" id="id6d044e4d-4a12-d995-9fc7-2dff8013fa5d" data-type="term">application facilitate management</span> and reduce 
+  <span data-role="tag" data-value="9c1dfe54-5994-4f40-2b34-edbcbc6c1460" id="idc98423a9-4235-7eaa-0d55-2f9e257100ac" data-type="term">complexity</span>. In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="idfe66a8af-8454-5146-3cf4-8c83dd6f3014" data-type="term">implementations</span>, the 
+  <span data-role="tag" data-value="292a0a81-1479-510b-740d-e99581c6e056" id="idbad3636a-dd89-cc8c-5396-cb2b37244eec" data-type="term">scanning service</span> provides 
+  <span data-role="tag" data-value="2e6173be-1b49-0602-2f7c-2950f8077f11" id="idd7de6291-2ca2-2aa7-2a16-8a4308e1c429" data-type="term">alerts</span> to an 
+  <span data-role="tag" data-value="5220f482-aaec-58b6-e07f-d150c1cdc200" id="idd6cb2269-68a4-b5ce-65cf-e35d00caaddb" data-type="term">administrator</span>, but does not attempt to control 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="ide68bd99c-2aef-a5fb-b502-8937ee2b1214" data-type="term">access</span> to 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="id46b326c8-0db0-649b-3e62-df132aae4c37" data-type="term">files</span>. In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="idc1c2e249-c7f6-8891-2686-237e1f282a06" data-type="term">implementations</span>, the 
+  <span data-role="tag" data-value="292a0a81-1479-510b-740d-e99581c6e056" id="idd0349e69-cdcd-d591-0d38-bc9423477a05" data-type="term">scanning service</span> may move 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="id07420c46-d97d-642a-37af-8fb8c1773d21" data-type="term">files</span> or change the 
+  <span data-role="tag" data-value="fc0c91a6-4a16-edca-e61d-93d3187b0a30" id="id77ba7914-64ad-3e94-23d7-dbc5b2878099" data-type="term">name</span> of 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="id80ae3026-f910-4be0-c0ce-01884f722e42" data-type="term">files</span> in order to control 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="iddd2928a5-8667-9997-ee61-18b4b1a33d3c" data-type="term">access</span>. For 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id7044dd02-854d-bb5e-a2bb-eb5415e44687" data-type="term">example</span>, to prevent 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="idd76fa712-244e-76ac-b9ba-26051dac227d" data-type="term">access</span> to a 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id6fcc9ce7-674c-fa28-32c2-81bf902402a1" data-type="term">file</span>, the 
+  <span data-role="tag" data-value="292a0a81-1479-510b-740d-e99581c6e056" id="ide456697d-44c3-9510-d6d4-0e3a2a322d6b" data-type="term">scanning service</span> may change the 
+  <span data-role="tag" data-value="fc0c91a6-4a16-edca-e61d-93d3187b0a30" id="id28afbeae-3e95-2bfd-b9f6-8ed9788dd9e0" data-type="term">name</span> or the 
+  <span data-role="tag" data-value="751a91d4-37e2-ce9d-5731-06cdf6ce3191" id="id19758df3-46d9-3dea-0456-c1bc4800d72a" data-type="term">location</span> (e.g., path in a 
+  <span data-role="tag" data-value="2358f806-9860-8d92-3d7e-c1c9b4afd45a" id="ide4042fb1-9d12-3d2a-dbd5-d2e490f9d1f9" data-type="term">file system</span>) of a 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id8de5ff54-e360-d1a9-3818-2864b03e63cd" data-type="term">file</span> in order to prevent 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id5e61b1f6-4cc0-a535-3876-1813cfac9356" data-type="term">access</span>. In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="idc9899b29-3336-3da0-baf3-fcb8d6f2d2b8" data-type="term">implementations</span>, the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id6f7c7d5e-1b7b-1ba7-ea89-d6e962dc231b" data-type="drawingObject">scanning service 104</span> may replace a 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id3b7fcc6e-8f18-3694-7f2f-24fa117347c3" data-type="term">file</span> with another 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id52288a1b-5ffa-0323-9dbe-874d475d3021" data-type="term">file</span> that is "clean."&nbsp;
+</p>
+<p></p>
+<p>In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="id64e4d7b0-5a98-6b8c-bd25-4bc3feac8b3c" data-type="term">implementations</span>, 
+  <span data-role="tag" data-value="c8dc3fa2-7f12-3c09-2809-98d0649d0717" id="id4f3a348d-80f0-f215-e474-e882382e98eb" data-type="term">file permissions</span> are used to control use of 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="id78e10d30-03b9-7084-93fd-a76801c3eb91" data-type="term">files</span>. For 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id64c506f0-9779-8a4d-d7c1-fc42131c8a0b" data-type="term">example</span>, if the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id42a6a949-f846-b870-206e-2a4a1acaab3b" data-type="drawingObject">scanning service 104</span> has been configured with an 
+  <span data-role="tag" data-value="2226b4a2-f380-69ba-8848-792184d4d2ed" id="idc9c74e44-1b1b-7827-b7f9-fe46ca50b1a4" data-type="term">account</span> having the 
+  <span data-role="tag" data-value="c0c93571-d968-405b-dce0-c31e11078c33" id="id5f608715-90a0-d67f-ffa1-9160b6f0fed4" data-type="term">appropriate permissions</span>, the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="idfbd7806e-97de-b33b-e9ca-02509952cac4" data-type="drawingObject">scanning service 104</span> may change the 
+  <span data-role="tag" data-value="55aca01c-2c0f-17f1-b403-fd78798692fa" id="id9b41dfb1-d1dd-6e93-53bb-a16d472d18bb" data-type="term">permission</span> of 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="idde3b126e-17b1-a07d-5dbe-5fe5dc7b0fba" data-type="term">files</span> in the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="id3172f8d7-c71c-665b-e806-63efa7dd53a9" data-type="drawingObject">cloud data store 106</span> to permit or deny 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="idb48e04b1-11a5-4dc7-7f3d-8ef113f66b79" data-type="term">access</span> to 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="id16aa6344-bd54-ce0e-f25c-96cfabb641b8" data-type="term">files</span> by the 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id18660b87-ce99-f0a4-3705-5692718d27d6" data-type="term">applications</span> in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="idf384f215-a8fa-dcc7-6a4a-6bec2b3869e2" data-type="drawingObject">virtual private cloud 114</span>. Use of 
+  <span data-role="tag" data-value="c8dc3fa2-7f12-3c09-2809-98d0649d0717" id="id25d38515-f24e-7d67-eedf-530a52252949" data-type="term">file permissions</span> to control 
+  <span data-role="tag" data-value="d642e48e-7a5c-b47b-6041-4d247c35810e" id="idd7e4deb5-49aa-c439-7921-e97f81b2012a" data-type="term">file access</span> provides 
+  <span data-role="tag" data-value="c7642025-30f8-1e41-dac3-2698434c489c" id="id4ebc5ac2-cc1f-b2aa-73a2-0a9cf0bf14ed" data-type="term">security</span> for 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="idff3031ce-fdb8-f2bb-973a-238c8c1bfa2f" data-type="term">data</span>, without a 
+  <span data-role="tag" data-value="d89a7ebc-f0e3-6398-3de0-6cffd54cbd6a" id="id748bb90e-5fb0-b338-48b8-d1770a0fa8fe" data-type="term">need</span> for 
+  <span data-role="tag" data-value="9a874a87-9273-ff46-13bf-64110736d9ef" id="iddcde40f7-bfeb-976b-65ca-fc69cc300150" data-type="term">lengthy setup or installation</span>. This reduces the 
+  <span data-role="tag" data-value="8e0196be-c207-c9c6-647a-1db3c7b712ce" id="id4f103a45-929b-3ccb-9eb6-5e3be4cf5547" data-type="term">costs</span> to 
+  <span data-role="tag" data-value="7f6c62ee-9586-7727-ef5f-8c63422e19e8" id="id662ecb9b-105f-abe9-ead3-ed6ce89274db" data-type="term">deploy and provision</span> and takes 
+  <span data-role="tag" data-value="10dc772c-d865-dc33-8332-38f0b2bd7f13" id="id79226610-8c54-0b64-fd28-f8c5d19d0ec8" data-type="term">advantage</span> of the 
+  <span data-role="tag" data-value="37612030-ffef-c1ec-d397-61617707b435" id="idb42aeb1d-3bbe-0923-e126-7e0432b28fd2" data-type="term">benefits</span> of the 
+  <span data-role="tag" data-value="73ae013d-721e-a0d7-4489-e168a1bc2a95" id="id92849b37-1633-924a-0100-89b3effbd387" data-type="term">cloud</span>, which is to distribute 
+  <span data-role="tag" data-value="b711c011-f902-b8c1-8fef-429b07b078d9" id="id342722e6-8314-e3b3-2415-72b3aa6b56ee" data-type="term">processing</span> and avoid the 
+  <span data-role="tag" data-value="d89a7ebc-f0e3-6398-3de0-6cffd54cbd6a" id="ida9c628f4-248a-adbe-4504-4cebdfbe42ed" data-type="term">need</span> for 
+  <span data-role="tag" data-value="90910f3d-8c2d-9593-bfea-56578c814201" id="id0d11e6a2-5775-e87a-6f6c-946547ed3a80" data-type="term">custom infrastructure</span>, which in 
+  <span data-role="tag" data-value="43b88579-5884-2b0e-23e3-2c68fbfafd05" id="id30b0c0f0-55cd-f12c-46df-9a60be91f609" data-type="term">turn</span> reduces 
+  <span data-role="tag" data-value="3da98b07-671b-c5e0-404d-8c29df9a1e8e" id="id14bfa96c-8b1e-7a7a-6694-2abf46d788a5" data-type="term">total cost</span> of 
+  <span data-role="tag" data-value="e453c6cc-96bc-e239-11e2-f8d044befdae" id="id0d16b918-c886-9fe1-1766-0b7930a0027a" data-type="term">ownership</span> for 
+  <span data-role="tag" data-value="c386c6da-04cf-a6ed-2861-5e809eb33bf8" id="id76ef46c8-face-a574-a1cc-cedca8cee544" data-type="term">cloud applications</span>.&nbsp;
+</p>
+<p></p>
+<p>In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="id4c0ccd15-2788-61d1-f226-7cf610240d70" data-type="term">implementations</span> in which 
+  <span data-role="tag" data-value="74a3c59b-e22a-f941-bed3-0ce00c2062e7" id="id8e325686-d2cc-fb7f-f77f-853bc6851355" data-type="term">permissions</span> are used, an 
+  <span data-role="tag" data-value="17d96f53-a4b4-b884-32ff-8c83404b5f95" id="idb1d7a9f6-942a-a3d5-84cd-1433f96cc548" data-type="term">application stores</span> a 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="idb478c41c-eea3-35c4-c07c-51ca28486074" data-type="term">file</span> in the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="id8d52e509-0c09-39fa-cf44-0409b4127228" data-type="drawingObject">cloud data store 106</span> with 
+  <span data-role="tag" data-value="3a5e76c6-5d35-f835-b7f1-69b25602fe94" id="id89e25489-3ce9-e5a9-7281-8db47c186ee2" data-type="term">default permissions</span> that permit 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id1aada0cb-d25c-6d5a-8989-eb2c4158c523" data-type="term">access</span> by 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="idc34638a5-1a80-f896-43fa-b2d103f19eab" data-type="term">applications</span> running in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id0ccada3f-326b-32a1-13c0-203eef018917" data-type="drawingObject">virtual private cloud 114</span>. The 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id1d2f3df9-51dc-b6bc-430c-3f1b5c15016b" data-type="drawingObject">scanning service 104</span> receives 
+  <span data-role="tag" data-value="d940868f-41cc-f692-4ece-2f20283ecf0d" id="id074c638c-5545-a6ee-70d4-90b7989e0c5c" data-type="term">notification</span> of the 
+  <span data-role="tag" data-value="a251744d-305c-a525-f67c-afcf650f9c98" id="ide8e6204a-5aea-13f9-4fb5-9b8926703c5e" data-type="term">storage event</span> from the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="idc9d7ec72-2979-48a8-1b46-cb3624f66a89" data-type="drawingObject">cloud data store 106</span>, and the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="ide5f3cce2-f4c0-d9d2-c30d-7f820ee724e3" data-type="drawingObject">scanning service 104</span> scans the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id19944579-6a1c-7a22-87af-d2323636e222" data-type="term">file</span>. If 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="ide9e02104-4fe0-9fd1-e718-cb326645a550" data-type="term">access</span> to the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="idbcd0cad0-e639-0a6b-d602-1d6eb5e3ca6f" data-type="term">file</span> needs to be restricted based on the 
+  <span data-role="tag" data-value="9d5833ab-2551-57e3-c543-86fd715fead2" id="idcb5bc2a0-1809-7403-552f-5677bd04b9d0" data-type="term">scan</span>, the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="ide21d96df-f4bf-87dc-a12c-f14395f10b89" data-type="drawingObject">scanning service 104</span> changes the 
+  <span data-role="tag" data-value="55aca01c-2c0f-17f1-b403-fd78798692fa" id="idca5d6bb4-dae0-5fee-1f7b-730d96fdd38e" data-type="term">permission</span> of the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="idefb2b32c-5d1c-2b72-367b-2019c1d0703d" data-type="term">file</span> so that 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="idf8c8d81e-a213-41bc-4111-55903c0b65bd" data-type="term">applications</span> in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="iddf8b90ed-e071-efed-9cd9-81469118ea33" data-type="drawingObject">virtual private cloud 114</span> can no longer 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id08c51556-170f-2e28-c9d0-99acf2fbabd0" data-type="term">access</span> the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id944d3885-7514-0e66-6de6-b6a87b7ec756" data-type="term">file</span>.&nbsp;
+</p>
+<p></p>
+<p>In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="id66306c66-30af-429a-cc27-dc8aa09ca377" data-type="term">implementations</span> in which 
+  <span data-role="tag" data-value="74a3c59b-e22a-f941-bed3-0ce00c2062e7" id="idaa23548c-6bbc-16b2-2038-58405086f8f3" data-type="term">permissions</span> are used, an 
+  <span data-role="tag" data-value="17d96f53-a4b4-b884-32ff-8c83404b5f95" id="id30dceee4-e426-1d31-864e-94d440a66ee5" data-type="term">application stores</span> a 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="idf416e7b4-2ccc-3187-3a3a-a53f2898fd5a" data-type="term">file</span> in the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="idad34aa60-6a9a-8c85-d488-8ba17934b625" data-type="drawingObject">cloud data store 106</span> with 
+  <span data-role="tag" data-value="3a5e76c6-5d35-f835-b7f1-69b25602fe94" id="idcd33b397-8d6c-b582-e21f-be59c1d93ea3" data-type="term">default permissions</span> that do not permit 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="idfa14e171-2fd9-6a79-874b-027e466335b4" data-type="term">access</span> by 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id2fa0b264-21ee-9a40-0985-27149578801d" data-type="term">applications</span> running in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id17e684cb-9e47-c855-98fe-f0ab33b64515" data-type="drawingObject">virtual private cloud 114</span>. The 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="idafbb0bdf-330f-79b8-0e6b-037607eff488" data-type="drawingObject">scanning service 104</span> receives 
+  <span data-role="tag" data-value="d940868f-41cc-f692-4ece-2f20283ecf0d" id="id15a24cf9-e80a-ae10-dba1-320bde97a67a" data-type="term">notification</span> of the 
+  <span data-role="tag" data-value="a251744d-305c-a525-f67c-afcf650f9c98" id="id13d447f3-dc84-6a3d-eb11-44028c0326fe" data-type="term">storage event</span> from the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="id12c7cb73-7fb3-e3fd-0157-353306c7e6c8" data-type="drawingObject">cloud data store 106</span>, and the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="idbc1fef56-9385-27f3-be74-612bd799474c" data-type="drawingObject">scanning service 104</span> scans the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id59bb9a7f-b5a3-0f44-d99e-eacc7a1c2b4a" data-type="term">file</span>. If 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id440dafdf-5cd6-aa85-36a1-65c4e7813956" data-type="term">access</span> to the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id83d3a37a-535e-f9d5-998e-7c40124d2a12" data-type="term">file</span> needs to be restricted based on the 
+  <span data-role="tag" data-value="9d5833ab-2551-57e3-c543-86fd715fead2" id="id862dfbb3-a6ec-ceb0-a2de-97a6e77939ee" data-type="term">scan</span>, the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id354e8d5a-bbff-1a1d-6248-f8597aaf2034" data-type="drawingObject">scanning service 104</span> does not change the 
+  <span data-role="tag" data-value="55aca01c-2c0f-17f1-b403-fd78798692fa" id="id6f85b07e-bf89-4c5f-8215-f0820985332b" data-type="term">permission</span> of the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id89c14e5f-daec-d8ea-9e5d-020713a382ed" data-type="term">file</span> so that 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="ide89d1bce-58a5-0fc2-3cfe-63aac26f0743" data-type="term">applications</span> in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="idbcc1b9ce-bdec-bb51-a3bc-5f9e5c7afcaa" data-type="drawingObject">virtual private cloud 114</span> still cannot 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id2631d752-7dbd-f9ab-18d2-d460ac63641c" data-type="term">access</span> the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id8411cd77-5625-cde2-2c2e-5df61ab79bd4" data-type="term">file</span>. If 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id78193538-66a6-ebd3-07b9-b4625db74ff4" data-type="term">access</span> to the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="idf17cca04-6de7-73dd-b8f9-87eb490fcf1b" data-type="term">file</span> does not 
+  <span data-role="tag" data-value="d89a7ebc-f0e3-6398-3de0-6cffd54cbd6a" id="id5faa953b-cbfe-87b2-f6f5-e4c1ef9f1e49" data-type="term">need</span> to be restricted based on the 
+  <span data-role="tag" data-value="9d5833ab-2551-57e3-c543-86fd715fead2" id="id1abede7f-a3a5-ad68-cac9-0bc441c1ffc3" data-type="term">scan</span>, the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id1d809e06-4444-e015-14aa-ab1613d3407e" data-type="drawingObject">scanning service 104</span> changes the 
+  <span data-role="tag" data-value="55aca01c-2c0f-17f1-b403-fd78798692fa" id="idda6a11d4-e59c-e9ff-3369-cdbc5ba7897a" data-type="term">permission</span> of the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="idaf3d7156-4a7b-98f1-0598-acbdfac8fa8b" data-type="term">file</span> so that 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="idaea936f7-7b08-df37-209c-de8b9db3b77a" data-type="term">applications</span> in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id75cb7ede-8d52-b322-6905-14350874e15b" data-type="drawingObject">virtual private cloud 114</span> may 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id36a22b71-89a5-f48d-afd7-f1848741913a" data-type="term">access</span> the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id325adfb0-7a34-e334-8219-9077626ba1db" data-type="term">file</span>.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="971ea169-d710-5f68-50f7-c3e8827562a0" id="id659887d5-7e75-8514-dfee-fbdbde792a42" data-type="drawingObject">cloud infrastructure 102</span> may include a 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="idf2f71316-dfa6-ea10-d625-ce0ee8624ab2" data-type="drawingObject">virtual private cloud 114</span> (VPC) including one or more 
+  <span data-role="tag" data-value="7f076c8c-1e1f-4acb-1430-e39af1c70cab" id="id28637b52-92ba-29dc-1e35-110295537357" data-type="term">computing resources</span> on which 
+  <span data-role="tag" data-value="c92928cf-d3bd-39b1-335c-096714ec2a21" id="idedca6e0e-f971-95c8-4f58-119d6c2c0770" data-type="term">virtual machine instances</span> are implemented. For 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id4336c581-5ccf-0398-8818-38ca55e17aea" data-type="term">example</span>, the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id80a4462b-b333-ebc4-a410-06a9a91138c4" data-type="drawingObject">virtual private cloud 114</span> may include one or more 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id224a0c1f-9608-e52d-3fa4-31120113c39f" data-type="term">applications</span> such as a 
+  <span data-role="tag" data-value="6929c595-8388-80e8-a135-dad914fd9fa4" id="id7f18157b-9e1c-3828-ee7a-6a30db7fd986" data-type="term">software application</span>, a 
+  <span data-role="tag" data-value="a5a99dda-169b-e5ec-7527-685a44853079" id="id187957c6-14c3-411e-d96a-d9a795d8352b" data-type="term">web application</span>, a 
+  <span data-role="tag" data-value="53c0ce02-4796-9af6-d163-119287de41ea" id="id57a715c1-7994-3cb8-b1c5-8ce681f4fb1c" data-type="term">virtual desktop</span>, a 
+  <span data-role="tag" data-value="36f01ff1-63c2-c4d8-6ec2-28d7cd25eef5" id="id1287e406-1a76-d2a7-2bec-43046587a7af" data-type="term">server application</span>, etc. 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id90fd3f98-e0e3-8cca-ca67-a7411fef8b3e" data-type="term">Applications</span> in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id2e98dfad-86d4-ec7c-c249-5bc76df14335" data-type="drawingObject">virtual private cloud 114</span> may 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id81bcfeb6-39dd-a77d-d343-576624fd2d78" data-type="term">access</span> and store 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="id3834c5e2-3553-c46f-ecf3-8c99954673b5" data-type="term">data</span> in the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="ida269eb44-0929-e580-422b-ea58e6bd6d28" data-type="drawingObject">cloud data store 106</span>, depending on the 
+  <span data-role="tag" data-value="74a3c59b-e22a-f941-bed3-0ce00c2062e7" id="idd9ffa323-35ac-62f4-fec8-d7be19ce3658" data-type="term">permissions</span> assigned to the 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="id4afa6f5a-62f0-2e79-67c3-7d9e51ebafe9" data-type="term">files</span> in the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="idcc768488-2b56-dbde-19fa-9458d0f0409b" data-type="drawingObject">cloud data store 106</span>. In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="idf84f929a-aacb-d9a2-07a6-c8dc6275973c" data-type="term">implementations</span>, some or all of 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="ida0fa8586-c3a5-f332-55de-65f339504a1f" data-type="term">applications</span> may be implemented on 
+  <span data-role="tag" data-value="9362dba3-465c-2290-674e-4849d4579f15" id="ide577f0d8-ba1a-0c5c-244d-77266b69f83b" data-type="term">infrastructure</span> inside or outside of the 
+  <span data-role="tag" data-value="73ae013d-721e-a0d7-4489-e168a1bc2a95" id="ided913cd6-694c-5a20-e8db-93d06a355add" data-type="term">cloud</span>. For 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id35f3dd2a-c62e-06e0-150e-eefd388054e1" data-type="term">example</span>, 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="idb1eb4978-4970-ffa5-7a90-fe3c9c8ae7f0" data-type="term">applications</span> may be implemented in a 
+  <span data-role="tag" data-value="3b1f02ae-a6ce-7c73-1ca2-a3f17a37f862" id="idc53f734e-1407-f8a1-1eb3-8e3ad9a7edad" data-type="term">co-location facility</span> or in a 
+  <span data-role="tag" data-value="b726c0ed-34a1-2a5c-3708-a9e66a26ebc6" id="id51776aec-1f49-5b6d-2eb5-8e2e97e0e76b" data-type="term">data center</span> not associated with a 
+  <span data-role="tag" data-value="b07b3a69-23b2-4947-9f2d-08819f84701a" id="idc923baa1-0f26-e39b-55f3-3e8b1d6d3a58" data-type="term">cloud infrastructure</span>. For 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id84ab23f7-9f57-db08-b021-08eee098762f" data-type="term">example</span>, 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="idfdaa6093-f49e-1843-cea9-ba9c28eab207" data-type="term">applications</span> may be implemented on a 
+  <span data-role="tag" data-value="eb942e66-a704-9910-a86f-030b7bb17409" id="ida5ce4e36-7775-1d9e-a254-71c56eb4b473" data-type="term">user device</span>, such as a 
+  <span data-role="tag" data-value="3dbdb074-3994-38e3-ccb3-cfc97311ebd9" id="ideb136bdf-d36d-176b-bcc7-75689f34d219" data-type="term">mobile app</span> or 
+  <span data-role="tag" data-value="eca62d7a-6e57-74a2-77ba-b7df57d5f7a8" id="id8ed2b544-2394-3984-68b3-eb01d5dfbb2f" data-type="term">desktop computer application</span>. 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id79978652-9e27-2667-7a83-52e7d979fc38" data-type="term">Applications</span> implemented outside of the 
+  <span data-role="tag" data-value="73ae013d-721e-a0d7-4489-e168a1bc2a95" id="idf015890b-9c24-0da9-91ae-be6ba892a9ad" data-type="term">cloud</span> may make use of 
+  <span data-role="tag" data-value="7f324aba-4009-32fe-ddc7-78dbbffb23dd" id="ide122e072-888b-b0a5-0f6c-a75a1d82a6be" data-type="term">cloud resources</span>, such as 
+  <span data-role="tag" data-value="869fa026-c372-31ce-d08d-5f6ac148bf82" id="id23a0d40e-7a1b-eeea-b444-1d1980432db1" data-type="term">cloud storage</span>. Use of the 
+  <span data-role="tag" data-value="7b21d5ed-b6d5-30b2-3f66-eea6b5aa8163" id="id361e6fef-8002-921e-c5f2-b99091d64ce8" data-type="term">scanning techniques</span> described with 
+  <span data-role="tag" data-value="da691665-9a13-4215-c63d-3de8f65db1a0" id="id3b17b232-c67f-a97c-8621-325aac2e1bab" data-type="term">respect</span> to 
+  <span data-role="tag" data-value="869fa026-c372-31ce-d08d-5f6ac148bf82" id="idfa4f1b54-55fc-7e74-d5ff-35dee8b3b409" data-type="term">cloud storage</span> may be useful even if the 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id0fc1e250-c0b8-599f-0d24-8d2023713486" data-type="term">applications</span> are partially or entirely implemented outside of the 
+  <span data-role="tag" data-value="b07b3a69-23b2-4947-9f2d-08819f84701a" id="id5449b104-78b2-5a8e-0a4d-b24315297378" data-type="term">cloud infrastructure</span>, for 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id56c1fa03-0025-66eb-4b13-5758ba5ec530" data-type="term">example</span>, with the 
+  <span data-role="tag" data-value="94853125-f722-26b9-705c-73e033dfbbf5" id="id0fafa3f0-2884-ae62-e5f1-d837054e3eac" data-type="term">exception</span> of the 
+  <span data-role="tag" data-value="869fa026-c372-31ce-d08d-5f6ac148bf82" id="id7383b553-7545-8cc8-3292-e12a79d87980" data-type="term">cloud storage</span>.&nbsp;
+</p>
+<p></p>
+<p>
+  <span data-role="tag" data-value="6a7dcc47-cbdb-2d32-117d-f467937426b4" id="ida2ebe103-6eb0-209e-fc0d-30259a7ce8ed" data-type="drawingObject">User devices 122</span> may be in 
+  <span data-role="tag" data-value="65942467-72f2-a16a-4733-5e9c472adc59" id="id1235abb4-0a88-04a4-2b83-46e71314242f" data-type="term">communication</span> with the 
+  <span data-role="tag" data-value="14852b9e-61b7-39a7-d799-2a9b504d5630" id="id3a4dd4ad-d121-62bb-620f-482e8944614e" data-type="term">data store</span>. The 
+  <span data-role="tag" data-value="6a7dcc47-cbdb-2d32-117d-f467937426b4" id="id2a31572e-829b-41e2-2efa-dee6a4bbcc15" data-type="drawingObject">user devices 122</span> may have 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id7b584efe-94d0-fc8f-5058-927bc22cc891" data-type="term">applications</span> that directly store 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="idff44e0c4-1ffd-3f43-3038-dd9d35ba12eb" data-type="term">data</span> in the 
+  <span data-role="tag" data-value="14852b9e-61b7-39a7-d799-2a9b504d5630" id="id10526621-6bf1-d35b-2625-f718dd6ddbc2" data-type="term">data store</span> 106. The 
+  <span data-role="tag" data-value="6a7dcc47-cbdb-2d32-117d-f467937426b4" id="id030af2f8-27ef-a013-f6ad-af41fe862812" data-type="drawingObject">user devices 122</span> may be in 
+  <span data-role="tag" data-value="65942467-72f2-a16a-4733-5e9c472adc59" id="idd4bb762f-2ed9-fba5-835a-7526a5bedb5f" data-type="term">communication</span> with one or more 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id280baab9-3334-677c-14d6-240653f4f940" data-type="term">applications</span> in the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id527b3171-759c-9fd8-d4b4-8187b3022fcd" data-type="drawingObject">virtual private cloud 114</span>, which in 
+  <span data-role="tag" data-value="43b88579-5884-2b0e-23e3-2c68fbfafd05" id="id80891c72-b7b3-e76b-ac78-4b96b290a4ef" data-type="term">turn</span> store 
+  <span data-role="tag" data-value="309db9df-a30e-26ae-acf8-a9bf2287b97a" id="id5abf9d37-8616-2aa9-5df2-e8caf17af577" data-type="term">data</span> in the 
+  <span data-role="tag" data-value="14852b9e-61b7-39a7-d799-2a9b504d5630" id="id6cb92388-374e-754c-9fab-8f1ffd61c6da" data-type="term">data store</span> 106.&nbsp;
+</p>
+<p></p>
+<p>An 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="idfb4a3aec-902e-e594-e656-92008069195d" data-type="term">example</span> is presented in which the 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="idc3ff0bdc-defb-f847-0e2b-deee906b906c" data-type="drawingObject">cloud data store 106</span> includes 
+  <span data-role="tag" data-value="1998cdff-8130-dee0-4768-acd97356f8bb" id="idfb54c253-6def-982f-64d3-ebdfb1cd3337" data-type="term">three files</span>; 
+  <span data-role="tag" data-value="fff9d204-d2ad-9c63-59bb-b2f7c6510078" id="id1cfaf1f2-4ba0-de0d-d51d-7f7db0a803a6" data-type="drawingObject">clean files 108</span>, 
+  <span data-role="tag" data-value="e206ac6e-aaf8-fada-74a8-8ec187cb6694" id="id75b91796-062d-c384-f9a3-8dad745d9dc6" data-type="drawingObject">clean files 110</span> and 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="id08385942-13fd-e14c-01e1-9e737d7eed72" data-type="drawingObject">malicious file 112</span>. The 
+  <span data-role="tag" data-value="fff9d204-d2ad-9c63-59bb-b2f7c6510078" id="idf14926b6-2356-b807-5189-592c354282dd" data-type="drawingObject">clean files 108</span>, 
+  <span data-role="tag" data-value="e206ac6e-aaf8-fada-74a8-8ec187cb6694" id="ida464d4b8-bbaf-b358-72a6-8261956a4f1b" data-type="drawingObject">clean files 110</span>, 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="id160a683d-990b-49b0-0728-2667fe1c6359" data-type="drawingObject">malicious file 112</span> may be any 
+  <span data-role="tag" data-value="255c17b7-c031-beb3-a742-86d783ace5fd" id="idcf9124a1-66ae-293b-deda-789340aa737b" data-type="term">sort</span> of 
+  <span data-role="tag" data-value="a97e85cd-accc-0a54-2ff9-8fc573ed8350" id="id6e1314f8-f387-a67f-415a-6f7a3f85bea3" data-type="term">data file or collection</span> of 
+  <span data-role="tag" data-value="fe44e02a-56a6-e5a6-cdf9-1b4fea3cb512" id="id03401506-e22f-af51-4dda-61aa2f6a7d5d" data-type="term">data files</span> (e.g., a 
+  <span data-role="tag" data-value="7910f861-dd0b-177b-c1db-7b84e1420903" id="idb787c20f-e756-86d0-3f4b-04863ca5d0bc" data-type="term">word processing file</span>, an 
+  <span data-role="tag" data-value="e9258b5b-071c-15a4-cde8-c2207d64a15e" id="id932ec8cf-c5fd-79b5-e659-94d3e3f999c4" data-type="term">image</span>, a 
+  <span data-role="tag" data-value="10f70d08-ca5d-d936-e4d2-579154cfdc0d" id="id0316c11d-4cfd-5763-75a5-df5018f87ec9" data-type="term">video</span>, an 
+  <span data-role="tag" data-value="d5f684c7-dd25-146b-b924-b35df9c2b71d" id="id1e22f08f-d9fe-4900-7f1c-95bcb74bd973" data-type="term">archive collection</span> of 
+  <span data-role="tag" data-value="edc143c1-cd14-c424-51f1-41abebb1255c" id="id416264e6-fced-12a0-dc08-c68ed5e2dbf5" data-type="term">files</span>, etc.). In this 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="idfb75fc80-8bcc-8b6c-68d1-cd6ac557524a" data-type="term">example</span>, there may be a 
+  <span data-role="tag" data-value="7589414a-a3be-afc1-5f68-f1e259e32e93" id="id90572f38-fc59-f0d7-90d0-da65de3594d9" data-type="term">first clean file</span> 108 and a second 
+  <span data-role="tag" data-value="e206ac6e-aaf8-fada-74a8-8ec187cb6694" id="id231eaba3-ff52-b1fd-121f-45f67f405783" data-type="drawingObject">clean files 110</span>. The 
+  <span data-role="tag" data-value="fff9d204-d2ad-9c63-59bb-b2f7c6510078" id="id88c6e42a-6a40-5331-c787-4e2b65c55c2d" data-type="drawingObject">clean files 108</span>, 
+  <span data-role="tag" data-value="e206ac6e-aaf8-fada-74a8-8ec187cb6694" id="id0be24abe-3021-da17-91e3-58b85eb22c20" data-type="drawingObject">clean files 110</span> may be clean in the sense that they do not contain 
+  <span data-role="tag" data-value="dd81fb79-c1a3-ba96-3cba-866ed263ee41" id="id8cc80d42-987c-92bc-9c09-93ef452d8801" data-type="term">content</span> that would be identified by the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="ida3cb53db-feff-15a7-a803-4a8a7ccacebe" data-type="drawingObject">scanning service 104</span> to require 
+  <span data-role="tag" data-value="25114c19-6382-fe2c-eea6-9ab112375d9f" id="id7a22f64f-1c6d-6c27-ad5c-ee7ab0acc55f" data-type="term">reporting or restriction</span>. The 
+  <span data-role="tag" data-value="2620cfbe-36c2-216b-2f78-3962e2c699b5" id="ide587e9bd-d663-eb42-c921-0993e265e3b1" data-type="drawingObject">cloud data store 106</span> also includes a third 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="id79858622-6dc6-358a-dd34-3aab07dcfcb4" data-type="drawingObject">malicious file 112</span>, which contains 
+  <span data-role="tag" data-value="dd81fb79-c1a3-ba96-3cba-866ed263ee41" id="id9d16e3a0-7f49-a51d-260f-e0f68c9d6f33" data-type="term">content</span> may be identified by the 
+  <span data-role="tag" data-value="4a764983-4149-333a-37f0-94c1f9594f24" id="id9448a631-6000-626c-aabb-89e0494c4394" data-type="drawingObject">scanning service 104</span> to require 
+  <span data-role="tag" data-value="bd5f6d21-d238-cfcc-9a83-a432b77b011a" id="id01a8e30e-1102-6b91-c8bb-fa43ab670744" data-type="term">restriction</span> of 
+  <span data-role="tag" data-value="d642e48e-7a5c-b47b-6041-4d247c35810e" id="id0376664b-9541-976d-6c63-9c4f2b106f65" data-type="term">file access</span>. For 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="idf99a4db3-4441-612a-715b-09c4fe999432" data-type="term">example</span>, the 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="ida2dffd96-cbdf-726f-298a-4c756b80c6c8" data-type="drawingObject">malicious file 112</span> may include 
+  <span data-role="tag" data-value="fefd7716-170a-b450-cf6b-356d9c424254" id="id9fc3ccfd-6231-2b98-a69f-f0686a7b7a4d" data-type="term">malware</span> or other malicious 
+  <span data-role="tag" data-value="dd81fb79-c1a3-ba96-3cba-866ed263ee41" id="id5c035cbd-4186-c7e7-19ea-8b02e6307434" data-type="term">content</span>. For 
+  <span data-role="tag" data-value="d2b68f12-677b-2747-2419-f68bff57697a" id="id307f2057-703c-2364-150f-afc7c6fc2f4f" data-type="term">example</span>, the 
+  <span data-role="tag" data-value="bf736bd6-8d0b-e49b-4928-0a0a5a37ba18" id="id56b19e47-9f8f-2fe5-7f96-80e7fb29078f" data-type="term">file</span> may include 
+  <span data-role="tag" data-value="dd81fb79-c1a3-ba96-3cba-866ed263ee41" id="idd3c5b348-525f-2759-9400-33c63689151c" data-type="term">content</span> that should be protected from 
+  <span data-role="tag" data-value="0adcfafd-46c3-cf44-d700-167925a90fa8" id="ida1f4f135-5f60-f005-a1ff-ed095d69816d" data-type="term">distribution</span> under a 
+  <span data-role="tag" data-value="bb3de121-f966-ee04-097b-fd7726000e8f" id="idd05bc08e-958e-08b7-7b52-ddedc8e91a6d" data-type="term">policy</span>.&nbsp;
+</p>
+<p></p>
+<p>In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="idea2fc38a-13f1-8a8c-fe1f-9f17e876d21f" data-type="term">implementations</span>, 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id0d13237f-3ce3-f8e3-164f-f5a4d7cbcad1" data-type="term">access</span> to the 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="id3e9a1a43-4898-ce0d-f8f0-d04ec641c485" data-type="drawingObject">malicious file 112</span> by 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id96494da6-fc21-28a5-54d4-9af150df7dc1" data-type="term">applications</span> running on the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="ida883fd02-a8dc-ac76-77c2-ad39541577f3" data-type="drawingObject">virtual private cloud 114</span> may be prevented through the use of 
+  <span data-role="tag" data-value="74a3c59b-e22a-f941-bed3-0ce00c2062e7" id="idf4f80c5c-ded5-e522-00eb-4d0291ca087f" data-type="term">permissions</span> associated with the 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="id8809ade5-2491-67ea-010d-066874e1146e" data-type="drawingObject">malicious file 112</span> within the 
+  <span data-role="tag" data-value="14852b9e-61b7-39a7-d799-2a9b504d5630" id="id408b6e0e-b1f2-a872-54d0-054a72b29149" data-type="term">data store</span> 106, while the 
+  <span data-role="tag" data-value="fff9d204-d2ad-9c63-59bb-b2f7c6510078" id="ida4f6e214-81af-e2d3-82e5-529e91063af8" data-type="drawingObject">clean files 108</span>, 
+  <span data-role="tag" data-value="e206ac6e-aaf8-fada-74a8-8ec187cb6694" id="id6654e77d-e2ca-7b4f-e96b-cbfe3e8bd69b" data-type="drawingObject">clean files 110</span> may have other 
+  <span data-role="tag" data-value="74a3c59b-e22a-f941-bed3-0ce00c2062e7" id="idb4794e89-2c60-cc61-21b1-c8253f62b017" data-type="term">permissions</span> assigned and so 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id493aac24-d543-b206-d9f0-9066e06ce783" data-type="term">applications</span> running the on the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id2c8b4e20-7417-779e-cfb2-ad0306f4b1ee" data-type="drawingObject">virtual private cloud 114</span> would not be blocked. As a 
+  <span data-role="tag" data-value="cbc4a1ed-23f6-6b96-f1ce-e0664bc90a56" id="id78b24a9a-7bba-bffc-2ba0-cb375e4f54cf" data-type="term">result</span>, 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id8b2b82ed-73e6-82e9-62aa-47cf91a894ae" data-type="term">applications</span> running on the VPC may 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id04c4fe0e-5433-afc0-5980-ed2029c98d48" data-type="term">access</span> the 
+  <span data-role="tag" data-value="fff9d204-d2ad-9c63-59bb-b2f7c6510078" id="id31b2b985-6db3-2402-3fce-a924e4cc5064" data-type="drawingObject">clean files 108</span>, 
+  <span data-role="tag" data-value="e206ac6e-aaf8-fada-74a8-8ec187cb6694" id="id33a89a49-e69c-8272-f9ab-a48aa10e22f2" data-type="drawingObject">clean files 110</span> but not 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id3c4b87e3-62cd-43b5-0588-b32fca1ac914" data-type="term">access</span> the 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="ida9b38a55-01fa-551d-8b24-b13ac3819594" data-type="drawingObject">malicious file 112</span>. In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="idcae0d13d-57ef-4e35-7e75-78bc73439da2" data-type="term">implementations</span>, the 
+  <span data-role="tag" data-value="603186b7-250c-af36-705f-24d34375875b" id="idd0c427e5-7901-f5eb-c44f-2613dcabd92b" data-type="term">file names</span> of the 
+  <span data-role="tag" data-value="fff9d204-d2ad-9c63-59bb-b2f7c6510078" id="idc35fb45e-9686-5e29-8580-a6cee4adb63d" data-type="drawingObject">clean files 108</span>, 
+  <span data-role="tag" data-value="e206ac6e-aaf8-fada-74a8-8ec187cb6694" id="idabb702a0-638c-d208-42e2-8abe18d373d4" data-type="drawingObject">clean files 110</span> are not changed, but the 
+  <span data-role="tag" data-value="029cc98b-c971-51e9-f14c-7b7e7f8193dd" id="id7f53c51b-1cde-b478-ce1e-c6984deee6f5" data-type="term">file name</span> of the 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="ida56e37df-4eba-86c0-4554-061cd0231187" data-type="drawingObject">malicious file 112</span> is changed such that 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="id27f6f015-26d0-7e04-cbb1-9d4635dfc901" data-type="term">applications</span> running on the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="id5530659d-0a22-3e3b-da8d-4771832067c6" data-type="drawingObject">virtual private cloud 114</span> cannot 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="id2a2c2996-40a3-fc36-957f-73f943aee2d8" data-type="term">access</span> the 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="ida956b974-2ed8-835e-ab2d-7e27b980afe2" data-type="drawingObject">malicious file 112</span>. In some 
+  <span data-role="tag" data-value="113eea82-3b01-76b8-8d2c-f54d9b24da73" id="id246e12c3-e500-65f6-d8d4-3151b822f040" data-type="term">implementations</span>, the 
+  <span data-role="tag" data-value="fff9d204-d2ad-9c63-59bb-b2f7c6510078" id="id32c41a2e-ffd8-63e8-37be-da2837642259" data-type="drawingObject">clean files 108</span>, 
+  <span data-role="tag" data-value="e206ac6e-aaf8-fada-74a8-8ec187cb6694" id="id4131632e-bbb4-d68e-49ac-7fa1d31213e7" data-type="drawingObject">clean files 110</span> are not moved, but the 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="id4c385735-8fba-b4ae-c63b-7cd2712d5ade" data-type="drawingObject">malicious file 112</span> is moved such that 
+  <span data-role="tag" data-value="76f6e813-c3b5-41eb-6f47-225f2480a79b" id="idff14c6ff-b293-f2d2-adff-f51785757251" data-type="term">applications</span> running on the 
+  <span data-role="tag" data-value="8ffaea22-a6b8-2082-d713-b59291734b90" id="idef0fb95e-9b27-61af-f515-fb5739340c68" data-type="drawingObject">virtual private cloud 114</span> cannot 
+  <span data-role="tag" data-value="7096e494-0d06-c758-3134-ee5a252d480b" id="idc30acb17-f0ee-a090-0c6d-ca227d7b34ca" data-type="term">access</span> the 
+  <span data-role="tag" data-value="033f4fb1-cf71-529b-7afe-69c5feb7cc69" id="id0859fb5d-c7a0-55f2-7eaf-b836f7082f39" data-type="drawingObject">malicious file 112</span>.&nbsp;
+</p>
